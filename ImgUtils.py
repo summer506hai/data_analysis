@@ -24,7 +24,7 @@ def resize_img(pic,width):
     return newW,newH,newPicFile
 
 
-def DrawPic_with3pic(img_path,outpath,pic):
+def draw_pic_with_muti_imgs(img_path,outpath,pic):
     """
     将3张图片横向拼接在一起
     :param pic1: 第一张图片
@@ -67,7 +67,7 @@ def DrawPic_with3pic(img_path,outpath,pic):
 
 
 if __name__ == "__main__":
-    DrawPic_with3pic("dataset/images","dataset/","out1.png")
+    draw_pic_with_muti_imgs("dataset/images","dataset/","out1.png")
 
 
 
